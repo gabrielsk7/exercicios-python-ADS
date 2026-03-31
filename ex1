@@ -1,0 +1,38 @@
+# lista de exercícios
+
+# a)
+n1 = float(input("Numero 1: "))
+n2 = float(input("Numero 2: "))
+print("Resultado da multiplicacao:", n1 * n2)
+
+# b)
+soma = 0
+for i in range(5):
+    num = float(input("Digite um numero: "))
+    soma = soma + num
+print("Media:", soma / 5)
+
+# c)
+preco = float(input("Preco do produto: "))
+print("Preco final:", preco + (preco * 0.08))
+
+# d)
+a = float(input("Numero 1: "))
+b = float(input("Numero 2: "))
+print("Subtracao:", a - b)
+
+# e)
+altura = float(input("Altura: "))
+peso = float(input("Peso: "))
+imc = peso / (altura * altura)
+print("IMC:", imc)
+
+# f)
+c = float(input("Celsius: "))
+f = (c * 9/5) + 32
+print("Fahrenheit:", f)
+
+# g)
+h = float(input("Horas trabalhadas: "))
+vh = float(input("Valor da hora: "))
+print("Salario:", h * vh)
