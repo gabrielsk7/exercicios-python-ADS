@@ -5,3 +5,32 @@ n1 = float(input("Numero 1: "))
 n2 = float(input("Numero 2: "))
 print("Resultado da multiplicacao:", n1 * n2)
 
+b)
+nums = []
+for i in range(5):
+    n = float(input(f"N{i+1}: "))
+    nums.append(n)
+print(sum(nums) / 5)
+
+c)
+preco = float(input("Preço: "))
+print(preco * 1.08)
+
+d)
+a = float(input("N1: "))
+b = float(input("N2: "))
+print(a - b)
+
+e)
+peso = float(input("Peso: "))
+altura = float(input("Altura: "))
+print(peso / altura**2)
+
+f)
+c = float(input("Celsius: "))
+print(c * 9/5 + 32)
+
+g)
+horas = float(input("Horas: "))
+valor = float(input("Valor/hora: "))
+print(horas * valor)
